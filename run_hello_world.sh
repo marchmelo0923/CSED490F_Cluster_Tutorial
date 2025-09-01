@@ -5,7 +5,7 @@
 
 
 #### Select  GPU
-#SBATCH -p titnaxp*       # queue  name  or  partiton
+#SBATCH -p titanxp       # queue  name  or  partiton
 #SBATCH   --gres=gpu:1          # gpus per node
 
 ##  node 지정하기
