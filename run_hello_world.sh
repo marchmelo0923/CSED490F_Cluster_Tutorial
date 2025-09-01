@@ -16,12 +16,12 @@
 # Set your name and home path
 # For REPO_DIR, we recommend you to use same name as origin git repository name,
 # but you can freely use new REPO name and revise repository path.
-YOUR_NAME="{your_name}" # ex: honggildong
+YOUR_POVIS_ID="{your_name}" # ex: honggildong
 YOUR_HOME_PATH="{your_home_path}" # ex: /home/honggildong
 REPO_DIR=CSED490F_Cluster_Tutorial
 
 DIRECTORY_PATH=${YOUR_HOME_PATH}/${REPO_DIR}
-DOCKER_NAME=${YOUR_NAME}_CSED490F_Hello_World_container
+DOCKER_NAME=${YOUR_POVIS_ID}_CSED490F_Hello_World_container
 DOCKER_IMAGE=pytorch/pytorch:2.2.0-cuda12.1-cudnn8-devel
 ## function to init cleanup file
 function cleanup {
